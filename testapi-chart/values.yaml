@@ -9,8 +9,9 @@ image:
 service:
   name: testapi
   type: ClusterIP
-  externalPort: 80
-  internalPort: 80
+  externalPort: 8443
+  internalPort: 8443
+  clusterIP: 192.168.27.100
 resources:
   limits:
     cpu: 100m
